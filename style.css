@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Raleway Regular";
+    src: url("fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Raleway Light";
+    src: url("fonts/Raleway-Light.ttf");
+}
+
+@font-face {
+    font-family: "Raleway Bold";
+    src: url("fonts/Raleway-Bold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 1400px;
+    margin: 0 auto;
+    border: 1px solid gainsboro;
+}
+
+nav {
+    height: 70px;
+    background: black;
+}
+
+.logo_small {
+    margin: 20px 0 20px 150px;
+    float: left;
+}
+
+.list_parent {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+
+.list_child {
+    font-family: "Open Sans Semibold", "sans-serif";
+    font-size: 13px;
+    color: #c9c9c9;
+    cursor: pointer;
+    transition: 1s;
+    padding: 25px;
+}
+
+.list_child:hover {
+    color: yellow;
+}
+
+.list_child:last-child {
+    padding-right: 150px;
+}
+
+.div_picture {
+    height: 640px;
+    background: rgba(0, 0, 0, .48) url("img/img3.jpg");
+    background-blend-mode: darken;
+}
+
+.logo_big {
+    margin: 70px 0 30px 150px;
+}
+
+.text_under_big_logo {
+    font-family: "Raleway Regular", "sans-serif";
+    font-size: 35px;
+    color: white;
+    margin: 0 0 40px 150px;
+    float: left;
+    width: 502px;
+}
+
+.divider_1 {
+    position: relative;
+    width: 75px;
+    top: 220px;
+    left: -180px;
+}
+
+.text_under_text {
+    font-family: "Raleway Light", "sans-serif";
+    font-size: 14px;
+    color: #adacaa;
+    margin: 0 0 40px 150px;
+    position: relative;
+    top: 190px;
+    left: -500px;
+}
+
+.download_image {
+    cursor: pointer;
+    background: url("img/img5.png");
+    position: relative;
+    color: #ffffff;
+    top: 190px;
+    left: 155px;
+    width: 135px;
+    height: 42px;
+}
+
+.download_text {
+    font-family: "Open Sans Semibold", "sans-serif";
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    top: 158px;
+    left: 187px;
+    width: 70px;
+    margin: 0;
+}
+
+.download_text:hover {
+    color: rgba(244, 208, 65, 1)
+}
