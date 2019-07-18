@@ -25,6 +25,8 @@
     border: 1px solid gainsboro;
 }
 
+/* Part One */
+
 nav {
     height: 70px;
     background: black;
@@ -43,8 +45,7 @@ nav {
 }
 
 .list_child {
-    font-family: "Open Sans Semibold", "sans-serif";
-    font-size: 13px;
+    font-size: 14px;
     color: #c9c9c9;
     cursor: pointer;
     transition: 1s;
@@ -59,9 +60,11 @@ nav {
     padding-right: 150px;
 }
 
+/* End of Part One */
+/* Part Two */
 .div_picture {
     height: 640px;
-    background: rgba(0, 0, 0, .48) url("img/img3.jpg");
+    background: rgba(0, 0, 0, .48) url("img/one/img3.jpg");
     background-blend-mode: darken;
 }
 
@@ -97,7 +100,7 @@ nav {
 
 .download_image {
     cursor: pointer;
-    background: url("img/img5.png");
+    background: url("img/one/img5.png");
     position: relative;
     color: white;
     top: 190px;
@@ -107,14 +110,13 @@ nav {
 }
 
 .download_text {
-    font-family: "Open Sans Semibold", "sans-serif";
     font-size: 14px;
     color: #ffffff;
     cursor: pointer;
     transition: 0.5s;
     position: relative;
     top: 158px;
-    left: 187px;
+    left: 190px;
     width: 70px;
     margin: 0;
 }
@@ -130,7 +132,7 @@ nav {
     border-radius: 5px;
     position: relative;
     right: -900px;
-    top: -500px;
+    top: -185px;
 }
 
 .freetrial_top {
@@ -141,6 +143,10 @@ nav {
     position: relative;
     right: 0;
     top: 0;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
 }
 
 .freetrial_bottom {
@@ -150,5 +156,43 @@ nav {
     border-radius: 0 0 3px 3px;
     position: relative;
     right: 0;
-    top: 260px;
+    top: 80px;
+    font-family: "Raleway Light", "sans-serif";
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px;
+    text-align: center;
+    color: white;
+}
+
+.colortext {
+    color: #fca667;
+}
+
+.input_div {
+    width: 285px;
+    height: 30px;
+    margin: 40px 40px 0 40px;
+    color: #cecece;
+    font-size: 15px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.afterpicture {
+    height: 105px;
+    border-bottom: 1px solid #b7b7b7;
+}
+/* End of Part Two */
+/* Part Three */
+.socialmedia {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 25px 0 0 150px;
+}
+
+.under_socialmedia {
+    font-family: "Raleway Light", "sans-serif";
+    font-size: 14px;
+    color: #78797d;
+    margin: 10px 0 20px 150px;
 }
