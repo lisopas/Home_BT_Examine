@@ -163,6 +163,12 @@ nav {
     padding: 14px;
     text-align: center;
     color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.freetrial_bottom:hover {
+    color: rgba(244, 208, 65, 1);
 }
 
 .colortext {
@@ -182,6 +188,7 @@ nav {
     height: 105px;
     border-bottom: 1px solid #b7b7b7;
 }
+
 /* End of Part Two */
 /* Part Three */
 .socialmedia {
@@ -193,6 +200,130 @@ nav {
 .under_socialmedia {
     font-family: "Raleway Light", "sans-serif";
     font-size: 14px;
-    color: #78797d;
+    color: #86878b;
     margin: 10px 0 20px 150px;
+    float: left;
+}
+
+.icons {
+    font-family: "FontAwesome", "sans-serif";
+    margin: -25px 110px 0 0px;
+    letter-spacing: 24px;
+    font-size: 50px;
+    color: #ccc;
+    float: right;
+}
+
+/* End of Part Three */
+/* Part Four */
+
+.section_tabs {
+    background: #f5f5f5;
+    height: 595px;
+}
+
+.rect_four_one {
+    width: 110px;
+    height: 110px;
+    background: #333;
+    transition: 0.5s;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid #c7c7c7;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.rect_four_one:hover {
+    background: #ff8b38;
+}
+
+.rect_four_two {
+    width: 110px;
+    height: 110px;
+    background: #333;
+    transition: 0.5s;
+    border: 1px solid #c7c7c7;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.rect_four_two:hover {
+    background: #ff8b38;
+}
+
+.rect_four_three {
+    width: 110px;
+    height: 110px;
+    background: #333;
+    transition: 0.5s;
+    border-radius: 0 0 3px 3px;
+    border: 1px solid #c7c7c7;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.rect_four_three:hover {
+    background: #ff8b38;
+}
+
+.tabs_joiner {
+    margin: 145px 0 0 145px;
+    float: left;
+}
+
+.section_tabs_head {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 155px 0 0 100px;
+    float: left;
+}
+
+.section_tabs_lorem {
+    font-family: "Raleway Light", "sans-serif";
+    font-size: 14px;
+    color: #86878b;
+    float: left;
+    margin: 60px 0 0 100px;
+    position: relative;
+    left: -420px;
+    top: 180px;
+}
+
+.section_tabs_button {
+    width: 120px;
+    height: 45px;
+    border-radius: 3px;
+    background: #ff8b38;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.5s;
+    text-align: center;
+    float: left;
+    color: white;
+    padding-top: 10px;
+    position: relative;
+    left: -775px;
+    top: 430px;
+}
+
+.section_tabs_button:hover {
+    color: rgba(244, 208, 65, 1);
+}
+
+.section_tabs_image {
+    float: right;
+    position: relative;
+    right: 150px;
+    top: 10px;
+}
+
+.section_sublist {
+    height: 600px;
+    background: white;
 }
