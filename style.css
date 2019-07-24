@@ -450,6 +450,9 @@ nav {
     left: 805px;
 }
 
+/* End of Part Six */
+/* Part Seven */
+
 .awesome {
     height: 590px;
 }
@@ -559,3 +562,143 @@ nav {
     top: -15%;
     left: 5%;
 }
+
+/* End of Part Seven */
+/* Part Eight */
+
+.pricing_options {
+    height: 880px;
+    background: #f5f5f5;
+}
+
+.pricing_options_header {
+    font-family: "Raleway Regular", "sans-serif";
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    padding-top: 105px;
+}
+
+.pricing_options_divider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.pricing_options_lorem {
+    font-family: "Raleway Light", "sans-serif";
+    font-size: 14px;
+    color: #86878b;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.pricing_options_div {
+    width: 25%;
+}
+
+.pricing_options_div:nth-of-type(odd) {
+    align-self: flex-end;
+}
+
+.pricing_options_div:first-child{
+    margin-left: 145px;
+}
+
+.pricing_options_div:last-child{
+    margin-right: 145px;
+}
+
+.pricing_options_div_header {
+    font-weight: bold;
+    font-size: 20px;
+    width: 345px;
+    height: 60px;
+    border: 1px solid #f5f5f5;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background: #333333;
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.pricing_options_div_price {
+    width: 345px;
+    height: 156px;
+    border: 1px solid #f5f5f5;
+    border-bottom: #333;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding-top: 21%;
+}
+
+.pricing_options_div_orange {
+    width: 345px;
+    height: 4px;
+    background: #FF8B38;
+    border: 1px solid #f5f5f5;
+    border-top: #ff8b38;
+    border-bottom: #ff8b38;
+}
+
+.pricing_options_div_best {
+    width: 345px;
+    height: 40px;
+    background: #FF8B38;
+    border: 1px solid #f5f5f5;
+    border-top: #ff8b38;
+    border-bottom: #ff8b38;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.pricing_options_div_price_dollar {
+    font-family: "Raleway Bold", "sans-serif";
+    font-weight: bold;
+    font-size: 38px;
+    position: relative;
+    width: 40px;
+    top: -33%;
+    left: 30%;
+}
+
+.pricing_options_div_price_number {
+    font-family: "Raleway Bold", "sans-serif";
+    font-weight: bold;
+    font-size: 90px;
+    width: 50px;
+    position: relative;
+    top: -194%;
+    left: 40%;
+}
+
+.pricing_options_div_price_italic {
+    font-style: italic;
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+    position: relative;
+    top: -220%;
+}
+
+.pricing_options_features {
+    font-size: 18px;
+    width: 345px;
+    height: 42px;
+    border: 1px solid #f5f5f5;
+    color: #86878b;
+    background: white;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.pricing_options_container {
+    display: flex;
+    justify-content: space-between;
+}
+
