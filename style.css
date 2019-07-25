@@ -182,6 +182,7 @@ nav {
     color: #cecece;
     font-size: 15px;
     border-bottom: 1px solid #d6d6d6;
+    cursor: text;
 }
 
 .afterpicture {
@@ -601,11 +602,11 @@ nav {
     align-self: flex-end;
 }
 
-.pricing_options_div:first-child{
+.pricing_options_div:first-child {
     margin-left: 145px;
 }
 
-.pricing_options_div:last-child{
+.pricing_options_div:last-child {
     margin-right: 145px;
 }
 
@@ -687,7 +688,7 @@ nav {
 }
 
 .pricing_options_features {
-    font-size: 18px;
+    font-size: 16px;
     width: 345px;
     height: 42px;
     border: 1px solid #f5f5f5;
@@ -702,3 +703,176 @@ nav {
     justify-content: space-between;
 }
 
+/* End of Part Eight */
+/* Part Nine */
+
+.saying {
+    height: 590px;
+}
+
+.saying_div {
+    width: 280px;
+    height: 230px;
+}
+
+.saying_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.saying_div:first-child {
+    margin-left: 175px;
+}
+
+.saying_div:last-child {
+    margin-right: 175px;
+}
+
+.saying_lorem {
+    font-size: 15px;
+    font-style: italic;
+    color: #86878b;
+    position: relative;
+    top: -140px;
+    left: 10px;
+}
+
+.saying_photo {
+    position: relative;
+    top: -115px;
+    left: 3px;
+}
+
+.saying_name {
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: -180px;
+    left: 90px;
+}
+
+.saying_position {
+    font-size: 16px;
+    color: #86878b;
+    position: relative;
+    top: -198px;
+    left: 89px;
+}
+
+/* End of Part Nine */
+/* Part Ten */
+
+.stylish_design {
+    height: 320px;
+    background: rgba(0, 0, 0, .60) url("img/seven/background.png");
+    background-blend-mode: darken;
+}
+
+.stylish_design_header {
+    font-family: "Raleway Regular", "sans-serif";
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 105px;
+}
+
+.stylish_design_note {
+    font-family: "Raleway Light", "sans-serif";
+    font-size: 14px;
+    color: #aeafb4;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.stylish_design_image {
+    cursor: pointer;
+    background: url(img/one/img5.png);
+    position: relative;
+    color: white;
+    left: 630px;
+    width: 135px;
+    height: 42px;
+}
+
+.stylish_design_button {
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    top: -32px;
+    left: 665px;
+    width: 70px;
+    margin: 0;
+}
+
+.stylish_design_button:hover {
+    color: rgba(244, 208, 65, 1)
+}
+
+/* End of Part Ten */
+/* Part Eleven */
+
+.contact {
+    height: 610px;
+}
+
+.contact_input {
+    width: 525px;
+    height: 30px;
+    margin: 40px 40px 0 140px;
+    color: #cecece;
+    font-size: 15px;
+    border-bottom: 1px solid #d6d6d6;
+    padding-left: 10px;
+    cursor: text;
+}
+
+.contact_input_message {
+    width: 525px;
+    height: 170px;
+    margin: 40px 40px 0 135px;
+    color: #cecece;
+    font-size: 15px;
+    border-bottom: 1px solid #d6d6d6;
+    padding-left: 10px;
+    cursor: text;
+    position: relative;
+    top: -210px;
+    left: 600px;
+}
+
+.contact_button {
+    width: 150px;
+    height: 45px;
+    border-radius: 3px;
+    background: #ff8b38;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.5s;
+    text-align: center;
+    float: left;
+    color: white;
+    padding-top: 10px;
+    position: relative;
+    left: 620px;
+    bottom: 165px;
+}
+
+.contact_button:hover {
+    color: rgba(244, 208, 65, 1);
+}
+
+footer {
+    height: 85px;
+    background: black;
+}
+
+.footer_icons {
+    font-family: "FontAwesome", "sans-serif";
+    font-size: 35px;
+    color: #ccc;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 24px;
+}
